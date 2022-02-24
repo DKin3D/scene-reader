@@ -30,7 +30,7 @@ def scene_select():
 
 
 def slide_1():
-    Scr.txt("Does this work?")
+    Scr.txt("Does this work? This should be the first slide...")
     Scr.txt("Press any key to continue:")
     choice = input("")
     if choice.lower() == 'q':
